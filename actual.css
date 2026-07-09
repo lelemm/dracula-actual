@@ -3,6 +3,7 @@
   --dracula-background-dark: #21222c;
   --dracula-background-darker: #191a21;
   --dracula-workspace: #242633;
+  --dracula-page-background: #232530;
   --dracula-background-light: #343746;
   --dracula-background-lighter: #424450;
   --dracula-current-line: #44475a;
@@ -24,12 +25,12 @@
   --dracula-muted-overlay: rgba(248, 248, 242, 0.12);
   --dracula-hover-overlay: rgba(248, 248, 242, 0.18);
 
-  --color-pageBackground: var(--dracula-workspace);
+  --color-pageBackground: var(--dracula-page-background);
   --color-pageBackgroundModalActive: var(--dracula-background-light);
-  --color-pageBackgroundTopLeft: var(--dracula-workspace);
+  --color-pageBackgroundTopLeft: var(--dracula-page-background);
   --color-pageBackgroundBottomRight: var(--dracula-background-light);
   --color-pageBackgroundLineTop: var(--dracula-purple);
-  --color-pageBackgroundLineMid: var(--dracula-workspace);
+  --color-pageBackgroundLineMid: var(--dracula-page-background);
   --color-pageBackgroundLineBottom: var(--dracula-cyan);
   --color-pageText: var(--dracula-foreground);
   --color-pageTextLight: var(--dracula-foreground);
