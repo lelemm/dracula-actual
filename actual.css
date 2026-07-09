@@ -45,7 +45,7 @@
 
   --color-tableBackground: var(--dracula-background);
   --color-tableRowBackgroundAlternate: var(--color-tableBackground);
-  --color-tableRowBackgroundHover: var(--color-tableBackground);
+  --color-tableRowBackgroundHover: var(--dracula-background-dark);
   --color-tableText: var(--dracula-foreground);
   --color-tableTextItemAdded: var(--color-tableText);
   --color-tableTextLight: var(--color-tableText);
