@@ -55,7 +55,7 @@
   --color-tableBorderSelected: var(--dracula-purple);
   --color-tableBorderHover: var(--dracula-cyan);
   --color-tableBorderSeparator: var(--dracula-comment);
-  --color-tableRowBackgroundHighlight: var(--dracula-selection);
+  --color-tableRowBackgroundHighlight: var(--dracula-background-dark);
   --color-tableRowBackgroundHighlightText: var(--dracula-foreground);
   --color-tableRowHeaderBackground: var(--dracula-background-lighter);
   --color-tableRowHeaderText: var(--dracula-foreground);
