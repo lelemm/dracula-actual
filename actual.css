@@ -1,5 +1,9 @@
 :root {
   --dracula-background: #282a36;
+  --dracula-background-dark: #21222c;
+  --dracula-background-darker: #191a21;
+  --dracula-background-light: #343746;
+  --dracula-background-lighter: #424450;
   --dracula-current-line: #44475a;
   --dracula-selection: #44475a;
   --dracula-foreground: #f8f8f2;
@@ -17,9 +21,9 @@
   --dracula-hover-overlay: rgba(248, 248, 242, 0.18);
 
   --color-pageBackground: var(--dracula-background);
-  --color-pageBackgroundModalActive: var(--dracula-current-line);
+  --color-pageBackgroundModalActive: var(--dracula-background-light);
   --color-pageBackgroundTopLeft: var(--dracula-background);
-  --color-pageBackgroundBottomRight: var(--dracula-current-line);
+  --color-pageBackgroundBottomRight: var(--dracula-background-light);
   --color-pageBackgroundLineTop: var(--dracula-purple);
   --color-pageBackgroundLineMid: var(--dracula-background);
   --color-pageBackgroundLineBottom: var(--dracula-cyan);
@@ -31,11 +35,11 @@
   --color-pageTextLink: var(--dracula-cyan);
   --color-pageTextLinkLight: var(--dracula-purple);
 
-  --color-cardBackground: var(--dracula-selection);
-  --color-cardBorder: var(--dracula-comment);
+  --color-cardBackground: var(--dracula-background-light);
+  --color-cardBorder: var(--dracula-background-darker);
   --color-cardShadow: var(--dracula-shadow);
 
-  --color-tableBackground: var(--dracula-current-line);
+  --color-tableBackground: var(--dracula-background-light);
   --color-tableRowBackgroundAlternate: var(--color-tableBackground);
   --color-tableRowBackgroundHover: var(--dracula-selection);
   --color-tableText: var(--dracula-foreground);
@@ -46,14 +50,14 @@
   --color-tableTextHover: var(--dracula-cyan);
   --color-tableTextInactive: var(--dracula-comment);
   --color-tableHeaderText: var(--dracula-foreground);
-  --color-tableHeaderBackground: var(--dracula-selection);
-  --color-tableBorder: var(--dracula-background);
+  --color-tableHeaderBackground: var(--dracula-background-lighter);
+  --color-tableBorder: var(--dracula-background-darker);
   --color-tableBorderSelected: var(--dracula-purple);
   --color-tableBorderHover: var(--dracula-cyan);
   --color-tableBorderSeparator: var(--dracula-comment);
   --color-tableRowBackgroundHighlight: var(--dracula-selection);
   --color-tableRowBackgroundHighlightText: var(--dracula-foreground);
-  --color-tableRowHeaderBackground: var(--dracula-current-line);
+  --color-tableRowHeaderBackground: var(--dracula-background-lighter);
   --color-tableRowHeaderText: var(--dracula-foreground);
 
   --color-numberPositive: var(--dracula-green);
@@ -69,7 +73,7 @@
   --color-toBudgetZero: var(--color-numberPositive);
   --color-toBudgetNegative: var(--color-budgetNumberNegative);
 
-  --color-sidebarBackground: var(--dracula-current-line);
+  --color-sidebarBackground: var(--dracula-background-light);
   --color-sidebarItemBackgroundPending: var(--dracula-orange);
   --color-sidebarItemBackgroundPositive: var(--dracula-green);
   --color-sidebarItemBackgroundFailed: var(--dracula-red);
@@ -80,32 +84,32 @@
   --color-sidebarItemTextSelected: var(--dracula-pink);
   --color-sidebarBudgetName: var(--dracula-comment);
 
-  --color-menuBackground: var(--dracula-current-line);
-  --color-menuItemBackground: var(--dracula-current-line);
+  --color-menuBackground: var(--dracula-background-light);
+  --color-menuItemBackground: var(--dracula-background-light);
   --color-menuItemBackgroundHover: var(--dracula-selection);
   --color-menuItemText: var(--dracula-foreground);
   --color-menuItemTextHover: var(--dracula-cyan);
   --color-menuItemTextSelected: var(--dracula-pink);
   --color-menuItemTextHeader: var(--dracula-purple);
-  --color-menuBorder: var(--dracula-background);
+  --color-menuBorder: var(--dracula-background-darker);
   --color-menuBorderHover: var(--dracula-purple);
   --color-menuKeybindingText: var(--dracula-comment);
-  --color-menuAutoCompleteBackground: var(--dracula-background);
-  --color-menuAutoCompleteBackgroundHover: var(--dracula-current-line);
+  --color-menuAutoCompleteBackground: var(--dracula-background-dark);
+  --color-menuAutoCompleteBackgroundHover: var(--dracula-background-light);
   --color-menuAutoCompleteText: var(--dracula-foreground);
   --color-menuAutoCompleteTextHover: var(--dracula-cyan);
   --color-menuAutoCompleteTextHeader: var(--dracula-purple);
   --color-menuAutoCompleteItemTextHover: var(--dracula-foreground);
   --color-menuAutoCompleteItemText: var(--color-menuItemText);
 
-  --color-modalBackground: var(--dracula-current-line);
-  --color-modalBorder: var(--dracula-selection);
+  --color-modalBackground: var(--dracula-background-light);
+  --color-modalBorder: var(--dracula-background-darker);
   --color-mobileHeaderBackground: var(--dracula-background);
   --color-mobileHeaderText: var(--dracula-pink);
   --color-mobileHeaderTextSubdued: var(--dracula-comment);
   --color-mobileHeaderTextHover: var(--dracula-hover-overlay);
   --color-mobilePageBackground: var(--dracula-background);
-  --color-mobileNavBackground: var(--dracula-current-line);
+  --color-mobileNavBackground: var(--dracula-background-light);
   --color-mobileNavItem: var(--dracula-foreground);
   --color-mobileNavItemSelected: var(--dracula-pink);
   --color-mobileAccountShadow: var(--color-cardShadow);
@@ -124,38 +128,38 @@
   --color-buttonMenuBackground: transparent;
   --color-buttonMenuBackgroundHover: var(--dracula-hover-overlay);
   --color-buttonMenuBorder: var(--dracula-comment);
-  --color-buttonMenuSelectedText: var(--dracula-background);
-  --color-buttonMenuSelectedTextHover: var(--dracula-background);
-  --color-buttonMenuSelectedBackground: var(--dracula-pink);
-  --color-buttonMenuSelectedBackgroundHover: var(--dracula-purple);
+  --color-buttonMenuSelectedText: var(--dracula-foreground);
+  --color-buttonMenuSelectedTextHover: var(--dracula-foreground);
+  --color-buttonMenuSelectedBackground: var(--dracula-selection);
+  --color-buttonMenuSelectedBackgroundHover: var(--dracula-background-lighter);
   --color-buttonMenuSelectedBorder: var(--color-buttonMenuSelectedBackground);
 
-  --color-buttonPrimaryText: var(--dracula-background);
+  --color-buttonPrimaryText: var(--dracula-foreground);
   --color-buttonPrimaryTextHover: var(--color-buttonPrimaryText);
-  --color-buttonPrimaryBackground: var(--dracula-purple);
-  --color-buttonPrimaryBackgroundHover: var(--dracula-pink);
+  --color-buttonPrimaryBackground: var(--dracula-selection);
+  --color-buttonPrimaryBackgroundHover: var(--dracula-background-lighter);
   --color-buttonPrimaryBorder: var(--color-buttonPrimaryBackground);
   --color-buttonPrimaryShadow: var(--dracula-shadow);
   --color-buttonPrimaryDisabledText: var(--dracula-comment);
-  --color-buttonPrimaryDisabledBackground: var(--dracula-current-line);
+  --color-buttonPrimaryDisabledBackground: var(--dracula-background-light);
   --color-buttonPrimaryDisabledBorder: var(--color-buttonPrimaryDisabledBackground);
 
   --color-buttonNormalText: var(--dracula-foreground);
   --color-buttonNormalTextHover: var(--dracula-cyan);
-  --color-buttonNormalBackground: var(--dracula-current-line);
+  --color-buttonNormalBackground: var(--dracula-background);
   --color-buttonNormalBackgroundHover: var(--dracula-selection);
-  --color-buttonNormalBorder: var(--dracula-comment);
+  --color-buttonNormalBorder: var(--dracula-background-darker);
   --color-buttonNormalShadow: var(--dracula-shadow);
   --color-buttonNormalSelectedText: var(--dracula-background);
   --color-buttonNormalSelectedBackground: var(--dracula-purple);
   --color-buttonNormalDisabledText: var(--dracula-comment);
-  --color-buttonNormalDisabledBackground: var(--dracula-current-line);
-  --color-buttonNormalDisabledBorder: var(--dracula-current-line);
+  --color-buttonNormalDisabledBackground: var(--dracula-background-light);
+  --color-buttonNormalDisabledBorder: var(--dracula-background-darker);
 
   --color-calendarText: var(--dracula-foreground);
   --color-calendarBackground: var(--dracula-background);
   --color-calendarItemText: var(--dracula-foreground);
-  --color-calendarItemBackground: var(--dracula-current-line);
+  --color-calendarItemBackground: var(--dracula-background-light);
   --color-calendarSelectedBackground: var(--color-buttonNormalSelectedBackground);
 
   --color-buttonBareText: var(--color-pageText);
@@ -166,7 +170,7 @@
   --color-buttonBareBackgroundHover: var(--dracula-muted-overlay);
   --color-buttonBareBackgroundActive: var(--dracula-hover-overlay);
 
-  --color-noticeBackground: var(--dracula-current-line);
+  --color-noticeBackground: var(--dracula-background-light);
   --color-noticeBackgroundLight: var(--dracula-selection);
   --color-noticeBackgroundDark: var(--dracula-green);
   --color-noticeText: var(--dracula-green);
@@ -175,27 +179,27 @@
   --color-noticeTextMenu: var(--dracula-green);
   --color-noticeTextMenuHover: var(--dracula-background);
   --color-noticeBorder: var(--dracula-green);
-  --color-warningBackground: var(--dracula-current-line);
+  --color-warningBackground: var(--dracula-background-light);
   --color-warningText: var(--dracula-orange);
   --color-warningTextLight: var(--dracula-yellow);
   --color-warningTextDark: var(--dracula-foreground);
   --color-warningBorder: var(--dracula-orange);
-  --color-errorBackground: var(--dracula-current-line);
+  --color-errorBackground: var(--dracula-background-light);
   --color-errorText: var(--dracula-red);
   --color-errorTextDark: var(--dracula-foreground);
   --color-errorTextDarker: var(--dracula-foreground);
   --color-errorTextMenu: var(--dracula-red);
   --color-errorBorder: var(--dracula-red);
-  --color-upcomingBackground: var(--dracula-current-line);
+  --color-upcomingBackground: var(--dracula-background-light);
   --color-upcomingText: var(--dracula-purple);
   --color-upcomingBorder: var(--color-tableBorder);
 
   --color-formLabelText: var(--dracula-purple);
   --color-formLabelBackground: var(--dracula-background);
-  --color-formInputBackground: var(--dracula-current-line);
-  --color-formInputBackgroundSelected: var(--dracula-selection);
+  --color-formInputBackground: var(--dracula-background);
+  --color-formInputBackgroundSelected: var(--dracula-background-light);
   --color-formInputBackgroundSelection: var(--dracula-purple);
-  --color-formInputBorder: var(--dracula-comment);
+  --color-formInputBorder: var(--dracula-background-darker);
   --color-formInputTextReadOnlySelection: var(--dracula-background);
   --color-formInputBorderSelected: var(--dracula-purple);
   --color-formInputText: var(--dracula-foreground);
@@ -211,13 +215,13 @@
   --color-checkboxShadowSelected: var(--dracula-pink);
   --color-checkboxToggleBackground: var(--dracula-comment);
   --color-checkboxToggleBackgroundSelected: var(--dracula-purple);
-  --color-checkboxToggleDisabled: var(--dracula-current-line);
+  --color-checkboxToggleDisabled: var(--dracula-background-light);
 
-  --color-pillBackground: var(--dracula-current-line);
+  --color-pillBackground: var(--dracula-background-light);
   --color-pillBackgroundLight: var(--dracula-background);
   --color-pillText: var(--dracula-foreground);
   --color-pillTextHighlighted: var(--dracula-pink);
-  --color-pillBorder: var(--dracula-current-line);
+  --color-pillBorder: var(--dracula-background-darker);
   --color-pillBorderDark: var(--color-pillBorder);
   --color-pillBackgroundSelected: var(--dracula-purple);
   --color-pillTextSelected: var(--dracula-background);
@@ -235,14 +239,14 @@
   --color-reportsNumberNeutral: var(--color-numberNeutral);
   --color-reportsChartFill: var(--color-reportsNumberPositive);
 
-  --color-noteTagBackground: var(--dracula-current-line);
+  --color-noteTagBackground: var(--dracula-background-light);
   --color-noteTagBackgroundHover: var(--dracula-selection);
   --color-noteTagDefault: var(--dracula-purple);
   --color-noteTagText: var(--dracula-foreground);
 
-  --color-budgetOtherMonth: var(--dracula-current-line);
+  --color-budgetOtherMonth: var(--dracula-background-dark);
   --color-budgetCurrentMonth: var(--color-tableBackground);
-  --color-budgetHeaderOtherMonth: var(--dracula-current-line);
+  --color-budgetHeaderOtherMonth: var(--dracula-background-light);
   --color-budgetHeaderCurrentMonth: var(--color-tableHeaderBackground);
 
   --color-floatingActionBarBackground: var(--dracula-background);
