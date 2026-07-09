@@ -2,7 +2,7 @@
   --dracula-background: #282a36;
   --dracula-background-dark: #21222c;
   --dracula-background-darker: #191a21;
-  --dracula-workspace: #2b2d3a;
+  --dracula-workspace: #242633;
   --dracula-background-light: #343746;
   --dracula-background-lighter: #424450;
   --dracula-current-line: #44475a;
@@ -16,7 +16,7 @@
   --dracula-cyan: #8be9fd;
   --dracula-purple: #bd93f9;
   --dracula-pink: #ff79c6;
-  --dracula-purple-muted: rgba(189, 147, 249, 0.18);
+  --dracula-purple-muted: rgba(189, 147, 249, 0.14);
   --dracula-cyan-muted: rgba(139, 233, 253, 0.14);
   --dracula-pink-muted: rgba(255, 121, 198, 0.16);
   --dracula-shadow: rgba(0, 0, 0, 0.75);
@@ -43,7 +43,7 @@
   --color-cardBorder: var(--dracula-background-darker);
   --color-cardShadow: var(--dracula-shadow);
 
-  --color-tableBackground: var(--dracula-workspace);
+  --color-tableBackground: var(--dracula-background);
   --color-tableRowBackgroundAlternate: var(--color-tableBackground);
   --color-tableRowBackgroundHover: var(--dracula-purple-muted);
   --color-tableText: var(--dracula-foreground);
@@ -54,14 +54,14 @@
   --color-tableTextHover: var(--dracula-cyan);
   --color-tableTextInactive: var(--dracula-comment);
   --color-tableHeaderText: var(--dracula-foreground);
-  --color-tableHeaderBackground: var(--dracula-background-lighter);
+  --color-tableHeaderBackground: var(--dracula-background-light);
   --color-tableBorder: var(--dracula-background-darker);
   --color-tableBorderSelected: var(--dracula-purple);
   --color-tableBorderHover: var(--dracula-cyan);
   --color-tableBorderSeparator: var(--dracula-comment);
-  --color-tableRowBackgroundHighlight: var(--dracula-purple-muted);
+  --color-tableRowBackgroundHighlight: var(--dracula-background-light);
   --color-tableRowBackgroundHighlightText: var(--dracula-foreground);
-  --color-tableRowHeaderBackground: var(--dracula-background-lighter);
+  --color-tableRowHeaderBackground: var(--dracula-background-light);
   --color-tableRowHeaderText: var(--dracula-foreground);
 
   --color-numberPositive: var(--dracula-green);
@@ -248,7 +248,7 @@
   --color-noteTagDefault: var(--dracula-purple);
   --color-noteTagText: var(--dracula-foreground);
 
-  --color-budgetOtherMonth: var(--dracula-background-darker);
+  --color-budgetOtherMonth: var(--dracula-background-dark);
   --color-budgetCurrentMonth: var(--color-tableBackground);
   --color-budgetHeaderOtherMonth: var(--dracula-background-light);
   --color-budgetHeaderCurrentMonth: var(--color-tableHeaderBackground);
