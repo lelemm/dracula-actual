@@ -138,7 +138,7 @@
   --color-buttonMenuSelectedBackgroundHover: var(--dracula-pink-muted);
   --color-buttonMenuSelectedBorder: var(--color-buttonMenuSelectedBackground);
 
-  --color-buttonPrimaryText: var(--dracula-foreground);
+  --color-buttonPrimaryText: var(--dracula-background);
   --color-buttonPrimaryTextHover: var(--color-buttonPrimaryText);
   --color-buttonPrimaryBackground: var(--dracula-purple);
   --color-buttonPrimaryBackgroundHover: var(--dracula-pink);
