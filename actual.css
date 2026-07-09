@@ -39,7 +39,7 @@
   --color-cardBorder: var(--dracula-background-darker);
   --color-cardShadow: var(--dracula-shadow);
 
-  --color-tableBackground: var(--dracula-background-light);
+  --color-tableBackground: var(--dracula-background);
   --color-tableRowBackgroundAlternate: var(--color-tableBackground);
   --color-tableRowBackgroundHover: var(--dracula-selection);
   --color-tableText: var(--dracula-foreground);
@@ -244,7 +244,7 @@
   --color-noteTagDefault: var(--dracula-purple);
   --color-noteTagText: var(--dracula-foreground);
 
-  --color-budgetOtherMonth: var(--dracula-background-dark);
+  --color-budgetOtherMonth: var(--dracula-background-darker);
   --color-budgetCurrentMonth: var(--color-tableBackground);
   --color-budgetHeaderOtherMonth: var(--dracula-background-light);
   --color-budgetHeaderCurrentMonth: var(--color-tableHeaderBackground);
