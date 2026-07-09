@@ -1,19 +1,19 @@
-### [Foobar](https://foobar.com)
+### [Actual Budget](https://actualbudget.org)
 
-#### Install using Git
+#### Install from Actual
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+1. In Actual, go to **Settings**.
+2. Open **Appearance**.
+3. Under **Custom themes**, install this GitHub repo:
 
-```bash
-git clone https://github.com/dracula/foobar.git
+```text
+lelemm/dracula
 ```
 
 #### Install manually
 
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
+Download [actual.css](https://raw.githubusercontent.com/lelemm/dracula/refs/heads/main/actual.css), then install it through Actual's custom theme CSS flow.
 
 #### Activating theme
 
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+After installation, select Dracula as your custom dark theme in Actual's appearance settings.

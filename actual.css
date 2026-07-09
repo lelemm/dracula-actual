@@ -1,0 +1,269 @@
+:root {
+  --dracula-background: #282a36;
+  --dracula-current-line: #44475a;
+  --dracula-selection: #44475a;
+  --dracula-foreground: #f8f8f2;
+  --dracula-comment: #6272a4;
+  --dracula-red: #ff5555;
+  --dracula-orange: #ffb86c;
+  --dracula-yellow: #f1fa8c;
+  --dracula-green: #50fa7b;
+  --dracula-cyan: #8be9fd;
+  --dracula-purple: #bd93f9;
+  --dracula-pink: #ff79c6;
+  --dracula-shadow: rgba(0, 0, 0, 0.45);
+  --dracula-overlay: rgba(0, 0, 0, 0.3);
+  --dracula-muted-overlay: rgba(248, 248, 242, 0.12);
+  --dracula-hover-overlay: rgba(248, 248, 242, 0.18);
+
+  --color-pageBackground: var(--dracula-background);
+  --color-pageBackgroundModalActive: var(--dracula-current-line);
+  --color-pageBackgroundTopLeft: var(--dracula-background);
+  --color-pageBackgroundBottomRight: var(--dracula-current-line);
+  --color-pageBackgroundLineTop: var(--dracula-purple);
+  --color-pageBackgroundLineMid: var(--dracula-background);
+  --color-pageBackgroundLineBottom: var(--dracula-cyan);
+  --color-pageText: var(--dracula-foreground);
+  --color-pageTextLight: var(--dracula-foreground);
+  --color-pageTextSubdued: var(--dracula-comment);
+  --color-pageTextDark: var(--dracula-foreground);
+  --color-pageTextPositive: var(--dracula-green);
+  --color-pageTextLink: var(--dracula-cyan);
+  --color-pageTextLinkLight: var(--dracula-purple);
+
+  --color-cardBackground: var(--dracula-current-line);
+  --color-cardBorder: var(--dracula-purple);
+  --color-cardShadow: var(--dracula-shadow);
+
+  --color-tableBackground: var(--dracula-background);
+  --color-tableRowBackgroundAlternate: var(--color-tableBackground);
+  --color-tableRowBackgroundHover: var(--dracula-current-line);
+  --color-tableText: var(--dracula-foreground);
+  --color-tableTextItemAdded: var(--color-tableText);
+  --color-tableTextLight: var(--color-tableText);
+  --color-tableTextSubdued: var(--dracula-comment);
+  --color-tableTextSelected: var(--dracula-foreground);
+  --color-tableTextHover: var(--dracula-cyan);
+  --color-tableTextInactive: var(--dracula-comment);
+  --color-tableHeaderText: var(--dracula-foreground);
+  --color-tableHeaderBackground: var(--dracula-current-line);
+  --color-tableBorder: var(--dracula-current-line);
+  --color-tableBorderSelected: var(--dracula-purple);
+  --color-tableBorderHover: var(--dracula-cyan);
+  --color-tableBorderSeparator: var(--dracula-comment);
+  --color-tableRowBackgroundHighlight: var(--dracula-selection);
+  --color-tableRowBackgroundHighlightText: var(--dracula-foreground);
+  --color-tableRowHeaderBackground: var(--dracula-current-line);
+  --color-tableRowHeaderText: var(--dracula-foreground);
+
+  --color-numberPositive: var(--dracula-green);
+  --color-numberNegative: var(--dracula-red);
+  --color-numberNeutral: var(--dracula-comment);
+  --color-budgetNumberNegative: var(--color-numberNegative);
+  --color-budgetNumberZero: var(--color-tableTextSubdued);
+  --color-budgetNumberNeutral: var(--color-tableText);
+  --color-budgetNumberPositive: var(--color-budgetNumberNeutral);
+  --color-templateNumberFunded: var(--color-numberPositive);
+  --color-templateNumberUnderFunded: var(--dracula-orange);
+  --color-toBudgetPositive: var(--color-numberPositive);
+  --color-toBudgetZero: var(--color-numberPositive);
+  --color-toBudgetNegative: var(--color-budgetNumberNegative);
+
+  --color-sidebarBackground: var(--dracula-background);
+  --color-sidebarItemBackgroundPending: var(--dracula-orange);
+  --color-sidebarItemBackgroundPositive: var(--dracula-green);
+  --color-sidebarItemBackgroundFailed: var(--dracula-red);
+  --color-sidebarItemAccentSelected: var(--dracula-pink);
+  --color-sidebarItemBackgroundHover: var(--dracula-current-line);
+  --color-sidebarItemText: var(--dracula-foreground);
+  --color-sidebarItemTextUpdated: var(--color-sidebarItemText);
+  --color-sidebarItemTextSelected: var(--dracula-pink);
+  --color-sidebarBudgetName: var(--dracula-comment);
+
+  --color-menuBackground: var(--dracula-current-line);
+  --color-menuItemBackground: var(--dracula-current-line);
+  --color-menuItemBackgroundHover: var(--dracula-selection);
+  --color-menuItemText: var(--dracula-foreground);
+  --color-menuItemTextHover: var(--dracula-cyan);
+  --color-menuItemTextSelected: var(--dracula-pink);
+  --color-menuItemTextHeader: var(--dracula-purple);
+  --color-menuBorder: var(--dracula-background);
+  --color-menuBorderHover: var(--dracula-purple);
+  --color-menuKeybindingText: var(--dracula-comment);
+  --color-menuAutoCompleteBackground: var(--dracula-background);
+  --color-menuAutoCompleteBackgroundHover: var(--dracula-current-line);
+  --color-menuAutoCompleteText: var(--dracula-foreground);
+  --color-menuAutoCompleteTextHover: var(--dracula-cyan);
+  --color-menuAutoCompleteTextHeader: var(--dracula-purple);
+  --color-menuAutoCompleteItemTextHover: var(--dracula-foreground);
+  --color-menuAutoCompleteItemText: var(--color-menuItemText);
+
+  --color-modalBackground: var(--dracula-current-line);
+  --color-modalBorder: var(--dracula-selection);
+  --color-mobileHeaderBackground: var(--dracula-background);
+  --color-mobileHeaderText: var(--dracula-pink);
+  --color-mobileHeaderTextSubdued: var(--dracula-comment);
+  --color-mobileHeaderTextHover: var(--dracula-hover-overlay);
+  --color-mobilePageBackground: var(--dracula-background);
+  --color-mobileNavBackground: var(--dracula-current-line);
+  --color-mobileNavItem: var(--dracula-foreground);
+  --color-mobileNavItemSelected: var(--dracula-pink);
+  --color-mobileAccountShadow: var(--color-cardShadow);
+  --color-mobileAccountText: var(--dracula-cyan);
+  --color-mobileTransactionSelected: var(--dracula-purple);
+
+  --color-mobileViewTheme: var(--color-mobileHeaderBackground);
+  --color-mobileConfigServerViewTheme: var(--dracula-purple);
+
+  --color-markdownNormal: var(--dracula-purple);
+  --color-markdownDark: var(--dracula-pink);
+  --color-markdownLight: var(--dracula-cyan);
+
+  --color-buttonMenuText: var(--dracula-foreground);
+  --color-buttonMenuTextHover: var(--color-buttonMenuText);
+  --color-buttonMenuBackground: transparent;
+  --color-buttonMenuBackgroundHover: var(--dracula-hover-overlay);
+  --color-buttonMenuBorder: var(--dracula-comment);
+  --color-buttonMenuSelectedText: var(--dracula-background);
+  --color-buttonMenuSelectedTextHover: var(--dracula-background);
+  --color-buttonMenuSelectedBackground: var(--dracula-pink);
+  --color-buttonMenuSelectedBackgroundHover: var(--dracula-purple);
+  --color-buttonMenuSelectedBorder: var(--color-buttonMenuSelectedBackground);
+
+  --color-buttonPrimaryText: var(--dracula-background);
+  --color-buttonPrimaryTextHover: var(--color-buttonPrimaryText);
+  --color-buttonPrimaryBackground: var(--dracula-purple);
+  --color-buttonPrimaryBackgroundHover: var(--dracula-pink);
+  --color-buttonPrimaryBorder: var(--color-buttonPrimaryBackground);
+  --color-buttonPrimaryShadow: var(--dracula-shadow);
+  --color-buttonPrimaryDisabledText: var(--dracula-comment);
+  --color-buttonPrimaryDisabledBackground: var(--dracula-current-line);
+  --color-buttonPrimaryDisabledBorder: var(--color-buttonPrimaryDisabledBackground);
+
+  --color-buttonNormalText: var(--dracula-foreground);
+  --color-buttonNormalTextHover: var(--dracula-cyan);
+  --color-buttonNormalBackground: var(--dracula-current-line);
+  --color-buttonNormalBackgroundHover: var(--dracula-selection);
+  --color-buttonNormalBorder: var(--dracula-comment);
+  --color-buttonNormalShadow: var(--dracula-shadow);
+  --color-buttonNormalSelectedText: var(--dracula-background);
+  --color-buttonNormalSelectedBackground: var(--dracula-purple);
+  --color-buttonNormalDisabledText: var(--dracula-comment);
+  --color-buttonNormalDisabledBackground: var(--dracula-current-line);
+  --color-buttonNormalDisabledBorder: var(--dracula-current-line);
+
+  --color-calendarText: var(--dracula-foreground);
+  --color-calendarBackground: var(--dracula-background);
+  --color-calendarItemText: var(--dracula-foreground);
+  --color-calendarItemBackground: var(--dracula-current-line);
+  --color-calendarSelectedBackground: var(--color-buttonNormalSelectedBackground);
+
+  --color-buttonBareText: var(--color-pageText);
+  --color-buttonBareTextHover: var(--dracula-cyan);
+  --color-buttonBareDisabledText: var(--color-pageTextSubdued);
+  --color-buttonBareBackground: transparent;
+  --color-buttonBareDisabledBackground: var(--color-buttonBareBackground);
+  --color-buttonBareBackgroundHover: var(--dracula-muted-overlay);
+  --color-buttonBareBackgroundActive: var(--dracula-hover-overlay);
+
+  --color-noticeBackground: var(--dracula-current-line);
+  --color-noticeBackgroundLight: var(--dracula-selection);
+  --color-noticeBackgroundDark: var(--dracula-green);
+  --color-noticeText: var(--dracula-green);
+  --color-noticeTextLight: var(--dracula-green);
+  --color-noticeTextDark: var(--dracula-foreground);
+  --color-noticeTextMenu: var(--dracula-green);
+  --color-noticeTextMenuHover: var(--dracula-background);
+  --color-noticeBorder: var(--dracula-green);
+  --color-warningBackground: var(--dracula-current-line);
+  --color-warningText: var(--dracula-orange);
+  --color-warningTextLight: var(--dracula-yellow);
+  --color-warningTextDark: var(--dracula-foreground);
+  --color-warningBorder: var(--dracula-orange);
+  --color-errorBackground: var(--dracula-current-line);
+  --color-errorText: var(--dracula-red);
+  --color-errorTextDark: var(--dracula-foreground);
+  --color-errorTextDarker: var(--dracula-foreground);
+  --color-errorTextMenu: var(--dracula-red);
+  --color-errorBorder: var(--dracula-red);
+  --color-upcomingBackground: var(--dracula-current-line);
+  --color-upcomingText: var(--dracula-purple);
+  --color-upcomingBorder: var(--color-tableBorder);
+
+  --color-formLabelText: var(--dracula-purple);
+  --color-formLabelBackground: var(--dracula-background);
+  --color-formInputBackground: var(--dracula-background);
+  --color-formInputBackgroundSelected: var(--dracula-current-line);
+  --color-formInputBackgroundSelection: var(--dracula-purple);
+  --color-formInputBorder: var(--dracula-current-line);
+  --color-formInputTextReadOnlySelection: var(--dracula-background);
+  --color-formInputBorderSelected: var(--dracula-purple);
+  --color-formInputText: var(--dracula-foreground);
+  --color-formInputTextSelected: var(--dracula-background);
+  --color-formInputTextPlaceholder: var(--dracula-comment);
+  --color-formInputTextPlaceholderSelected: var(--dracula-comment);
+  --color-formInputTextSelection: var(--dracula-background);
+  --color-formInputShadowSelected: var(--dracula-purple);
+  --color-formInputTextHighlight: var(--dracula-pink);
+  --color-checkboxText: var(--color-tableText);
+  --color-checkboxBackgroundSelected: var(--dracula-purple);
+  --color-checkboxBorderSelected: var(--dracula-purple);
+  --color-checkboxShadowSelected: var(--dracula-pink);
+  --color-checkboxToggleBackground: var(--dracula-comment);
+  --color-checkboxToggleBackgroundSelected: var(--dracula-purple);
+  --color-checkboxToggleDisabled: var(--dracula-current-line);
+
+  --color-pillBackground: var(--dracula-current-line);
+  --color-pillBackgroundLight: var(--dracula-background);
+  --color-pillText: var(--dracula-foreground);
+  --color-pillTextHighlighted: var(--dracula-pink);
+  --color-pillBorder: var(--dracula-current-line);
+  --color-pillBorderDark: var(--color-pillBorder);
+  --color-pillBackgroundSelected: var(--dracula-purple);
+  --color-pillTextSelected: var(--dracula-background);
+  --color-pillBorderSelected: var(--dracula-pink);
+  --color-pillTextSubdued: var(--dracula-comment);
+
+  --color-reportsRed: var(--dracula-red);
+  --color-reportsBlue: var(--dracula-cyan);
+  --color-reportsGreen: var(--dracula-green);
+  --color-reportsGray: var(--dracula-comment);
+  --color-reportsLabel: var(--color-pageText);
+  --color-reportsInnerLabel: var(--dracula-background);
+  --color-reportsNumberPositive: var(--color-numberPositive);
+  --color-reportsNumberNegative: var(--color-numberNegative);
+  --color-reportsNumberNeutral: var(--color-numberNeutral);
+  --color-reportsChartFill: var(--color-reportsNumberPositive);
+
+  --color-noteTagBackground: var(--dracula-current-line);
+  --color-noteTagBackgroundHover: var(--dracula-selection);
+  --color-noteTagDefault: var(--dracula-purple);
+  --color-noteTagText: var(--dracula-foreground);
+
+  --color-budgetOtherMonth: var(--dracula-background);
+  --color-budgetCurrentMonth: var(--color-tableBackground);
+  --color-budgetHeaderOtherMonth: var(--dracula-current-line);
+  --color-budgetHeaderCurrentMonth: var(--color-tableHeaderBackground);
+
+  --color-floatingActionBarBackground: var(--dracula-background);
+  --color-floatingActionBarBorder: var(--dracula-purple);
+  --color-floatingActionBarText: var(--dracula-foreground);
+
+  --color-tooltipText: var(--dracula-foreground);
+  --color-tooltipBackground: var(--dracula-current-line);
+  --color-tooltipBorder: var(--dracula-selection);
+
+  --color-calendarCellBackground: var(--dracula-background);
+
+  --color-overlayBackground: var(--dracula-overlay);
+
+  --color-chartQual1: var(--dracula-cyan);
+  --color-chartQual2: var(--dracula-purple);
+  --color-chartQual3: var(--dracula-green);
+  --color-chartQual4: var(--dracula-pink);
+  --color-chartQual5: var(--dracula-orange);
+  --color-chartQual6: var(--dracula-yellow);
+  --color-chartQual7: var(--dracula-red);
+  --color-chartQual8: var(--dracula-comment);
+  --color-chartQual9: var(--dracula-foreground);
+}
