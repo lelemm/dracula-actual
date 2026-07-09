@@ -7,12 +7,12 @@
 3. Under **Custom themes**, install this GitHub repo:
 
 ```text
-lelemm/dracula
+lelemm/dracula-actual
 ```
 
 #### Install manually
 
-Download [actual.css](https://raw.githubusercontent.com/lelemm/dracula/refs/heads/main/actual.css), then install it through Actual's custom theme CSS flow.
+Download [actual.css](https://raw.githubusercontent.com/lelemm/dracula-actual/refs/heads/main/actual.css), then install it through Actual's custom theme CSS flow.
 
 #### Activating theme
 

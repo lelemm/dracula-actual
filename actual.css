@@ -192,10 +192,10 @@
 
   --color-formLabelText: var(--dracula-purple);
   --color-formLabelBackground: var(--dracula-background);
-  --color-formInputBackground: var(--dracula-background);
-  --color-formInputBackgroundSelected: var(--dracula-current-line);
+  --color-formInputBackground: var(--dracula-current-line);
+  --color-formInputBackgroundSelected: var(--dracula-selection);
   --color-formInputBackgroundSelection: var(--dracula-purple);
-  --color-formInputBorder: var(--dracula-current-line);
+  --color-formInputBorder: var(--dracula-comment);
   --color-formInputTextReadOnlySelection: var(--dracula-background);
   --color-formInputBorderSelected: var(--dracula-purple);
   --color-formInputText: var(--dracula-foreground);

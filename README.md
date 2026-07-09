@@ -11,12 +11,12 @@
 3. Under **Custom themes**, install this GitHub repo:
 
 ```text
-lelemm/dracula
+lelemm/dracula-actual
 ```
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/lelemm/dracula/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/lelemm/dracula-actual/graphs/contributors).
 
 | [![lelemm](https://github.com/lelemm.png?size=100)](https://github.com/lelemm) |
 | ----------------------------------------------------------------------------- |
