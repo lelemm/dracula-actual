@@ -69,12 +69,12 @@
   --color-toBudgetZero: var(--color-numberPositive);
   --color-toBudgetNegative: var(--color-budgetNumberNegative);
 
-  --color-sidebarBackground: var(--dracula-background);
+  --color-sidebarBackground: var(--dracula-current-line);
   --color-sidebarItemBackgroundPending: var(--dracula-orange);
   --color-sidebarItemBackgroundPositive: var(--dracula-green);
   --color-sidebarItemBackgroundFailed: var(--dracula-red);
   --color-sidebarItemAccentSelected: var(--dracula-pink);
-  --color-sidebarItemBackgroundHover: var(--dracula-current-line);
+  --color-sidebarItemBackgroundHover: var(--dracula-selection);
   --color-sidebarItemText: var(--dracula-foreground);
   --color-sidebarItemTextUpdated: var(--color-sidebarItemText);
   --color-sidebarItemTextSelected: var(--dracula-pink);
